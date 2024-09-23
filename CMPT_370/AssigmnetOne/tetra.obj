@@ -1,0 +1,16 @@
+# ALEC ORTIZ - CMPT 370 - ASSIGNMENT ONE - TETRA.OBJ
+
+# Vertices
+v 1 1 0  # Vertex 1: Coordinates (1, 1, 0)
+v 0 1 1  # Vertex 2: Coordinates (0, 1, 1)
+v 0 0 0  # Vertex 3: Coordinates (0, 0, 0)
+v 1 0 1  # Vertex 4: Coordinates (1, 0, 1)
+
+# Material
+usemtl default  # Use the default material
+
+# Faces
+f 3 2 1  # Left Face: Defined by vertices 3, 2, and 1
+f 3 1 4  # Front Face: Defined by vertices 3, 1, and 4
+f 4 1 2  # Right Face: Defined by vertices 4, 1, and 2
+f 3 4 2  # Bottom Face: Defined by vertices 3, 4, and 2
